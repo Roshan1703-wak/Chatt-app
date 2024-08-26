@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+    <title>Chat App</title>
+    <script defer src="http://localhost:5000/socket.io/socket.io.js"></script> <!-- Socket.IO script -->
+    <script defer src="js/cilient.js"></script> <!-- Client-side JS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="chat-app">
+        <header>
+            <h1>Chat App</h1>
+            <img class="logo" src="wha.png" alt="App Logo">
+        </header>
+        <div class="container">
+           
+       
+        </div>
+        <footer>
+            <div class="send">
+                <form action="#" id="send-container">
+                    <input type="text" name="message" id="messageINPUT" placeholder="Type a message...">
+                    <input type="file" id="imageInput" accept="image/*">
+                    <button class="btn" type="submit">SEND</button>
+                </form>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
